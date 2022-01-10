@@ -17,14 +17,14 @@ function Summary() {
      <div>
        <header>
          <p>Saidas</p>
-         <img src={outcomeImg} alt="income" />
+         <img src={outcomeImg} alt="outcome" />
        </header>
        <strong>- R$ 2000</strong>
      </div>
-     <div>
+     <div className='highlight-background'>
        <header>
          <p>Total</p>
-         <img src={totalImg} alt="income" />
+         <img src={totalImg} alt="total" />
        </header>
        <strong>R$ 2000</strong>
      </div>
